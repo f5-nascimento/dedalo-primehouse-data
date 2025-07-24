@@ -12,7 +12,7 @@ O trabalho desenvolvido pela Equipe Atlas envolve desde a criação do ambiente 
 
 Com o avanço das atividades e a demanda crescente por manutenção e análise de informações, a Equipe Atlas decidiu expandir temporariamente sua equipe. Como parte de seu compromisso com a formação de novos profissionais, a Orion Data Solutions integrou ao time o estagiário Felippe do Nascimento, estudante em formação na área de desenvolvimento e bancos de dados.
 
-Felippe será responsável por atividades supervisionadas com foco em consultas e interpretação de dados. Para isso, foi criado para ele um usuário no banco de dados com o identificador **f5nascimento**, com permissões exclusivas de leitura sobre a view **relatorio**, que reúne as principais informações sobre as vendas, os compradores, os proprietários e os corretores.
+Felippe será responsável por atividades supervisionadas com foco em consultas e interpretação de dados. Para isso, foi criado para ele um usuário no banco de dados com o identificador **f5nascimento** e senha **f5@123**, com permissões exclusivas de leitura sobre a view **relatorio**, que reúne as principais informações sobre as vendas, os compradores, os proprietários e os corretores.
 
 Essa medida reforça o compromisso da Orion com boas práticas de segurança da informação, garantindo que cada membro da equipe tenha acesso somente ao escopo necessário de sua atuação.
 
