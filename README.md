@@ -74,14 +74,14 @@ A consulta deve utilizar relacionamentos (joins) entre as tabelas relacionadas.
 Com base na consulta criada no passo anterior, crie uma **view** que encapsule a lógica da consulta, permitindo sua reutilização para exibição de dados de vendas da corretora.
 
 ### Passo 15 - Criação de um Usuário F5
-Crie um usuário chamado `f5nascimento` com uma senha segura, garantindo que esse usuário tenha **apenas permissão de leitura** sobre a view criada no passo anterior.
+Crie um usuário chamado `f5nascimento` com uma senha `f5@123`, garantindo que esse usuário tenha **apenas permissão de leitura** sobre a view criada no passo anterior.
 
 ### Passo 16 - Entrega das Credenciais para Validação
 Envie via Google Sala de Aula as credenciais do servidor PostgreSQL criado no Azure, incluindo:  
 - Host  
 - Database  
 - User (f5nascimento que deve ser o usuário criado com permissão restrita)  
-- Password  
+- Password (f5@123) 
 - Port  
 
 Essas informações serão utilizadas para validação da entrega, garantindo que o usuário possui acesso restrito conforme solicitado.
