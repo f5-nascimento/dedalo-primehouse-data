@@ -10,6 +10,12 @@ A proposta do projeto consiste na criação de uma base de dados relacional hosp
 
 O trabalho desenvolvido pela Equipe Atlas envolve desde a criação do ambiente em nuvem até a estruturação das tabelas, inserção de dados simulados e desenvolvimento de consultas e visualizações que permitam à Dédalo PrimeHouse ter uma visão consolidada e estratégica de suas operações.
 
+Com o avanço das atividades e a demanda crescente por manutenção e análise de informações, a Equipe Atlas decidiu expandir temporariamente sua equipe. Como parte de seu compromisso com a formação de novos profissionais, a Orion Data Solutions integrou ao time o estagiário Felippe do Nascimento, estudante em formação na área de desenvolvimento e bancos de dados.
+
+Felippe será responsável por atividades supervisionadas com foco em consultas e interpretação de dados. Para isso, foi criado para ele um usuário no banco de dados com o identificador **f5nascimento**, com permissões exclusivas de leitura sobre a view **relatorio**, que reúne as principais informações sobre as vendas, os compradores, os proprietários e os corretores.
+
+Essa medida reforça o compromisso da Orion com boas práticas de segurança da informação, garantindo que cada membro da equipe tenha acesso somente ao escopo necessário de sua atuação.
+
 ---
 ## Diagrama
 
@@ -67,14 +73,14 @@ A consulta deve utilizar relacionamentos (joins) entre as tabelas relacionadas.
 ### Passo 14 - Criação de uma View de Relatório
 Com base na consulta criada no passo anterior, crie uma **view** que encapsule a lógica da consulta, permitindo sua reutilização para exibição de dados de vendas da corretora.
 
-### Passo 15 - Criação de um Usuário Visualizador
-Crie um usuário chamado `visualizador` com uma senha segura, garantindo que esse usuário tenha **apenas permissão de leitura** sobre a view criada no passo anterior.
+### Passo 15 - Criação de um Usuário F5
+Crie um usuário chamado `f5nascimento` com uma senha segura, garantindo que esse usuário tenha **apenas permissão de leitura** sobre a view criada no passo anterior.
 
 ### Passo 16 - Entrega das Credenciais para Validação
 Envie via Google Sala de Aula as credenciais do servidor PostgreSQL criado no Azure, incluindo:  
 - Host  
 - Database  
-- User (deve ser o usuário criado com permissão restrita)  
+- User (f5nascimento que deve ser o usuário criado com permissão restrita)  
 - Password  
 - Port  
 
